@@ -380,6 +380,32 @@ footer {
     }
 }
 
+//form
+.form {
+    padding: 64px 0;
+    .card {
+        padding: 2rem;
+        border-radius: 12px;
+        .head-card {
+            margin-bottom: 2rem;
+            h1 {
+                font-weight: 700;
+            }
+        }
+    }
+}
+.form-label {
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+.form-control,.form-select {
+    font-weight: 500;
+    &:focus {
+        box-shadow:0 0 0px 1px hsla(0, 0%, 0%, 1);
+        border-color: $first-primary;
+    }
+}
+
 
 //responsive 
 @media screen and (max-width : 576px) {
