@@ -1,0 +1,418 @@
+/*Font Import from google font*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+/*Variable Color*/
+$base-background : #f9f8fb;
+$dark-text-color : #05001B;
+$border-color : #c6c5cc;
+$first-primary : #05001B;
+$secondary-primary : #918EFF;
+$third-primary : #97e97a;
+$white-color : #ffffff;
+$four-primary : #B1D7E5;
+
+*,::before,::after,p,h1,h2,h3,h4,h5,h6 {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    // font-family: 'Poppins', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
+body {
+    background-color: $base-background;
+    overflow-x: hidden;
+}
+
+//Header sectiona
+.header {
+    .navbar {
+        background-color: $white-color;
+        padding: 1.4rem 0;
+        .navbar-brand {
+            color: $dark-text-color;
+            font-weight: 600;
+            font-size: 26px;
+        }
+        .navbar-collapse {
+            justify-content: flex-end;
+            .navbar-nav {
+                .nav-link {
+                    padding: 0;
+                    display: flex;
+                    align-items: center;
+                    margin: 0 16px;
+                    color: $dark-text-color;
+                    font-weight: 600;
+                    cursor: pointer;
+                    font-family: 'Quicksand', sans-serif;
+                }   
+            }
+        }
+    }
+}
+//jumbotron 
+.jumbotron {
+    padding: 84px 0;
+    .wrapper-jumbotron {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .text-container {
+            h1 {
+                color: $dark-text-color;
+                font-weight: 800;
+                font-size: 84px;
+                margin-bottom: 12px;
+            }
+            p {
+                color: $dark-text-color;
+                font-weight: 500;
+                font-size: 16px;
+                width: 100%;
+                max-width: 400px;
+            }
+        }
+        .illustration-container {
+            img {
+                width: 100%;
+                max-width: 600px;
+            }
+        }
+    }
+}
+//keunggulan kami
+.keunggulan-kami {
+    padding: 84px 0;
+    .wrapper-keunggulan-kami {
+        .body-content {
+            .card {
+                padding: 28px 34px;
+                box-shadow: none;
+                background-color: $white-color;
+                color: $dark-text-color;
+                border: 1px solid #e2e4e6;
+                width: 100%;
+                border-radius: 16px;
+                max-width: 580px;
+
+                &.secondary-bg {
+                    .iconly-title {
+                        .icon {
+                            background-color: $secondary-primary;
+                        }
+                    }
+                }
+                &.third-bg {
+                    .iconly-title {
+                        .icon {
+                            background-color: $third-primary;
+                        }
+                    }
+                }
+                &.four-bg {
+                    .iconly-title {
+                        .icon {
+                            background-color: $four-primary;
+                        }
+                    }
+                }
+                
+                .iconly-title {
+                    display: flex;
+                    flex-direction: column;
+                    margin-bottom: 1.2rem;
+                    .icon {
+                        margin-bottom: .8rem;
+                        width: 48px;
+                        height: 48px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        border-radius: 12px;
+                        background-color: $base-background;
+                        color: $white-color;
+                        font-size: 20px;
+                    }
+                    h6 {
+                        font-weight: 700;
+                        font-size: 26px;
+                    }
+                }
+                .desc {
+                    font-weight: 500;
+                    font-size: 16px;
+                }
+            }
+        }
+    }
+}
+//cakupan wilayah
+.cakupan-wilayah {
+    padding: 84px 0; 
+    position: relative;
+    background-color: $white-color;
+    .top-wave {
+        position: relative !important;
+        top: -84px;
+    }
+    .wrapper-maps {
+        .body-content {
+            img {
+                width: 100%;
+                max-width: 1000px;
+            }   
+        }
+    }
+}
+//tentang kami
+.tentangkami {
+    padding: 84px 0;
+    .wrapper-tentang-kami {
+        .body-content {
+            .illustration {
+                img {
+                    width: 100%;
+                    max-width: 500px;
+                }
+            }
+            .text-content {
+                .line {
+                    display: block;
+                    width: 70px;
+                    height: 8px;
+                    border-radius: 8px;
+                    margin-bottom: 8px;
+                    background-color: $dark-text-color;
+                }
+                h1 {
+                    font-weight: 700;
+                    margin-bottom: 1.5rem;
+                }
+                p {
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
+//pengajuan
+.pengajuan {
+    padding: 84px 0;
+    .wrapper-pengajuan-pada-kami {
+        .body-content {
+            display: flex;
+            justify-content: center;
+            .wrapper-pengajuan {
+                max-width: 800px;
+                .best-choose {
+                    display: flex;
+                    align-items: center;
+                    text-align: start;
+                    .icon {
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        padding: 8px;
+                        border-radius: 50%;
+                        background-color: $first-primary;
+                        margin-right: .5rem;
+                        transition: .3s ease;
+                        ion-icon {
+                            color: $white-color;
+                            font-size: 24px;
+                            transition: .3s ease;
+                        }
+                    }
+                    p {
+                        font-weight: 500;
+                    }
+
+                    &:hover {
+                        .icon {
+                            background-color: $white-color;
+                            transition: .3s ease;
+                            ion-icon {
+                                color: $first-primary;
+                                transition: .3s ease;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+//simulasi 
+.simulasi {
+    padding: 84px 0;
+    .card {
+        text-align: center;
+        color: $dark-text-color;
+        padding: 42px 18px;
+        border-radius: 12px;
+        transition: .3s ease;
+        &:hover {
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            transition: .3s ease;
+        }
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 1.5rem;
+            img {
+                width: 100%;
+                max-width: 100px;
+            }
+        }
+        p {
+            font-weight: 700;
+        }
+    }
+}
+//mitra kerja 
+.mitra-kerja {
+    padding: 84px 0;
+    .wrapper-mitra-kerja {
+        .mitra-kerja {
+            width: fit-content;
+            &.slick-active {
+                img {
+                    opacity: 1;
+                }
+            }
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 1rem;
+            img {
+                width: 100%;
+                max-width: 200px;
+                opacity: .6;
+            }
+        }
+    }
+}
+//footer
+footer {
+    background-color: $white-color;
+    padding: 100px 0;
+    .footer-border {
+        border-bottom: 1px solid $border-color;
+        padding: 42px 0;
+    }
+    p {
+        font-weight: 500;
+        margin-bottom: 4px;
+    }
+    h6 {
+        font-weight: 700;
+        margin-bottom: 1rem;
+    }
+    .ojk {
+        p {
+            font-weight: 700;
+            margin: 0;
+        }
+        img {
+            width: 100%;
+            max-width: 100px;
+        }
+    }
+    .brand {
+        h1 {
+            font-weight: 700;
+            font-size: 62px;
+        }
+        
+    }
+    .kontak-kami {
+        p {
+            display: flex;
+            align-items: center;
+            ion-icon {
+                margin-right: 4px;
+            }
+        }
+    }
+}
+//button
+.button {
+    padding: 8px 16px !important;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    &.dark-button {
+        background-color: $first-primary;
+        color: $white-color !important;
+    }
+    &.not-link-button {
+        text-decoration: none;
+    }
+}
+.head-content {
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5rem;
+    .title {
+        color: $dark-text-color;
+        font-weight: 600;
+        position: relative;
+        text-align: center;
+        width: fit-content;
+        font-family: 'Poppins', sans-serif;
+        &::after {
+            content: '';
+            display: block;
+            height: 4px;
+            width: 25%;
+            border-radius: 24px;
+            position: absolute;
+            bottom: -24px;
+            transform: translate(150%,0%);
+            background-color: $first-primary;
+    
+        }
+    }
+}
+
+
+//responsive 
+@media screen and (max-width : 576px) {
+    .jumbotron {
+        .wrapper-jumbotron {
+            flex-direction: column;
+            align-items: flex-start;
+            .text-container {
+                margin-bottom: 3rem;
+                h1 {
+                    font-size: 62px;
+                }
+                p {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width : 991px) {
+    .header {
+        .navbar {
+            .navbar-collapse {
+                .navbar-nav {
+                    .nav-link {
+                        margin: 0;
+                        margin: .5rem 0;
+                        &.button {
+                            width: fit-content;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,471 @@
+/*Font Import from google font*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+/*Variable Color*/
+*, ::before, ::after, p, h1, h2, h3, h4, h5, h6 {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body {
+  background-color: #f9f8fb;
+  overflow-x: hidden;
+}
+
+.header .navbar {
+  background-color: #ffffff;
+  padding: 1.4rem 0;
+}
+
+.header .navbar .navbar-brand {
+  color: #05001B;
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.header .navbar .navbar-collapse {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.header .navbar .navbar-collapse .navbar-nav .nav-link {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 16px;
+  color: #05001B;
+  font-weight: 600;
+  cursor: pointer;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.jumbotron {
+  padding: 84px 0;
+}
+
+.jumbotron .wrapper-jumbotron {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.jumbotron .wrapper-jumbotron .text-container h1 {
+  color: #05001B;
+  font-weight: 800;
+  font-size: 84px;
+  margin-bottom: 12px;
+}
+
+.jumbotron .wrapper-jumbotron .text-container p {
+  color: #05001B;
+  font-weight: 500;
+  font-size: 16px;
+  width: 100%;
+  max-width: 400px;
+}
+
+.jumbotron .wrapper-jumbotron .illustration-container img {
+  width: 100%;
+  max-width: 600px;
+}
+
+.keunggulan-kami {
+  padding: 84px 0;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card {
+  padding: 28px 34px;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  background-color: #ffffff;
+  color: #05001B;
+  border: 1px solid #e2e4e6;
+  width: 100%;
+  border-radius: 16px;
+  max-width: 580px;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card.secondary-bg .iconly-title .icon {
+  background-color: #918EFF;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card.third-bg .iconly-title .icon {
+  background-color: #97e97a;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card.four-bg .iconly-title .icon {
+  background-color: #B1D7E5;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card .iconly-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1.2rem;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card .iconly-title .icon {
+  margin-bottom: .8rem;
+  width: 48px;
+  height: 48px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 12px;
+  background-color: #f9f8fb;
+  color: #ffffff;
+  font-size: 20px;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card .iconly-title h6 {
+  font-weight: 700;
+  font-size: 26px;
+}
+
+.keunggulan-kami .wrapper-keunggulan-kami .body-content .card .desc {
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.cakupan-wilayah {
+  padding: 84px 0;
+  position: relative;
+  background-color: #ffffff;
+}
+
+.cakupan-wilayah .top-wave {
+  position: relative !important;
+  top: -84px;
+}
+
+.cakupan-wilayah .wrapper-maps .body-content img {
+  width: 100%;
+  max-width: 1000px;
+}
+
+.tentangkami {
+  padding: 84px 0;
+}
+
+.tentangkami .wrapper-tentang-kami .body-content .illustration img {
+  width: 100%;
+  max-width: 500px;
+}
+
+.tentangkami .wrapper-tentang-kami .body-content .text-content .line {
+  display: block;
+  width: 70px;
+  height: 8px;
+  border-radius: 8px;
+  margin-bottom: 8px;
+  background-color: #05001B;
+}
+
+.tentangkami .wrapper-tentang-kami .body-content .text-content h1 {
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.tentangkami .wrapper-tentang-kami .body-content .text-content p {
+  font-weight: 500;
+}
+
+.pengajuan {
+  padding: 84px 0;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content .wrapper-pengajuan {
+  max-width: 800px;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content .wrapper-pengajuan .best-choose {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: start;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content .wrapper-pengajuan .best-choose .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 8px;
+  border-radius: 50%;
+  background-color: #05001B;
+  margin-right: .5rem;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content .wrapper-pengajuan .best-choose .icon ion-icon {
+  color: #ffffff;
+  font-size: 24px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content .wrapper-pengajuan .best-choose p {
+  font-weight: 500;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content .wrapper-pengajuan .best-choose:hover .icon {
+  background-color: #ffffff;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.pengajuan .wrapper-pengajuan-pada-kami .body-content .wrapper-pengajuan .best-choose:hover .icon ion-icon {
+  color: #05001B;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.simulasi {
+  padding: 84px 0;
+}
+
+.simulasi .card {
+  text-align: center;
+  color: #05001B;
+  padding: 42px 18px;
+  border-radius: 12px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.simulasi .card:hover {
+  -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+          box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  -webkit-transition: .3s ease;
+  transition: .3s ease;
+}
+
+.simulasi .card .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 1.5rem;
+}
+
+.simulasi .card .icon img {
+  width: 100%;
+  max-width: 100px;
+}
+
+.simulasi .card p {
+  font-weight: 700;
+}
+
+.mitra-kerja {
+  padding: 84px 0;
+}
+
+.mitra-kerja .wrapper-mitra-kerja .mitra-kerja {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 0 1rem;
+}
+
+.mitra-kerja .wrapper-mitra-kerja .mitra-kerja.slick-active img {
+  opacity: 1;
+}
+
+.mitra-kerja .wrapper-mitra-kerja .mitra-kerja img {
+  width: 100%;
+  max-width: 200px;
+  opacity: .6;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 100px 0;
+}
+
+footer .footer-border {
+  border-bottom: 1px solid #c6c5cc;
+  padding: 42px 0;
+}
+
+footer p {
+  font-weight: 500;
+  margin-bottom: 4px;
+}
+
+footer h6 {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+
+footer .ojk p {
+  font-weight: 700;
+  margin: 0;
+}
+
+footer .ojk img {
+  width: 100%;
+  max-width: 100px;
+}
+
+footer .brand h1 {
+  font-weight: 700;
+  font-size: 62px;
+}
+
+footer .kontak-kami p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+footer .kontak-kami p ion-icon {
+  margin-right: 4px;
+}
+
+.button {
+  padding: 8px 16px !important;
+  outline: none;
+  border: none;
+  font-weight: 600;
+}
+
+.button.dark-button {
+  background-color: #05001B;
+  color: #ffffff !important;
+}
+
+.button.not-link-button {
+  text-decoration: none;
+}
+
+.head-content {
+  text-align: center;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 5rem;
+}
+
+.head-content .title {
+  color: #05001B;
+  font-weight: 600;
+  position: relative;
+  text-align: center;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-family: 'Poppins', sans-serif;
+}
+
+.head-content .title::after {
+  content: '';
+  display: block;
+  height: 4px;
+  width: 25%;
+  border-radius: 24px;
+  position: absolute;
+  bottom: -24px;
+  -webkit-transform: translate(150%, 0%);
+          transform: translate(150%, 0%);
+  background-color: #05001B;
+}
+
+@media screen and (max-width: 576px) {
+  .jumbotron .wrapper-jumbotron {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .jumbotron .wrapper-jumbotron .text-container {
+    margin-bottom: 3rem;
+  }
+  .jumbotron .wrapper-jumbotron .text-container h1 {
+    font-size: 62px;
+  }
+  .jumbotron .wrapper-jumbotron .text-container p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 991px) {
+  .header .navbar .navbar-collapse .navbar-nav .nav-link {
+    margin: 0;
+    margin: .5rem 0;
+  }
+  .header .navbar .navbar-collapse .navbar-nav .nav-link.button {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+}
+/*# sourceMappingURL=app.css.map */
