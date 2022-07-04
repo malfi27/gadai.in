@@ -23,6 +23,10 @@ body {
     background-color: $base-background;
     overflow-x: hidden;
 }
+#app {
+    overflow-x: hidden;
+    position: relative;
+}
 
 //Header sectiona
 .header {
@@ -405,6 +409,30 @@ footer {
         border-color: $first-primary;
     }
 }
+//button whatsaap {
+    .whatsappButton {
+        display: flex;
+        align-items: center;
+        padding: 1rem 1.5rem;
+        border-radius: 8px;
+        background-color: #44c016;
+        position: fixed;
+        right: 5%;
+        bottom: 10%;
+        color: $white-color;
+        text-decoration: none;
+        font-weight: 600;
+        transition: .2s ease;
+        ion-icon {
+            margin-right: 8px;
+        }
+        &:hover {
+            color: $white-color;
+            background-color: #3cad13;
+            transition: .2s ease;
+        }
+        
+    }
 
 
 //responsive 

@@ -16,6 +16,11 @@ body {
   overflow-x: hidden;
 }
 
+#app {
+  overflow-x: hidden;
+  position: relative;
+}
+
 .header .navbar {
   background-color: #ffffff;
   padding: 1.4rem 0;
@@ -466,6 +471,37 @@ footer .kontak-kami p ion-icon {
   -webkit-box-shadow: 0 0 0px 1px black;
           box-shadow: 0 0 0px 1px black;
   border-color: #05001B;
+}
+
+.whatsappButton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1rem 1.5rem;
+  border-radius: 8px;
+  background-color: #44c016;
+  position: fixed;
+  right: 5%;
+  bottom: 10%;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 600;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
+}
+
+.whatsappButton ion-icon {
+  margin-right: 8px;
+}
+
+.whatsappButton:hover {
+  color: #ffffff;
+  background-color: #3cad13;
+  -webkit-transition: .2s ease;
+  transition: .2s ease;
 }
 
 @media screen and (max-width: 576px) {
