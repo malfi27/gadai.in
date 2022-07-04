@@ -491,6 +491,7 @@ footer .kontak-kami p ion-icon {
   font-weight: 600;
   -webkit-transition: .2s ease;
   transition: .2s ease;
+  z-index: 100;
 }
 
 .whatsappButton ion-icon {
